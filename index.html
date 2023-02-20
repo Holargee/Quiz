@@ -1,0 +1,46 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <Title>Random Quiz</Title>
+<link rel="stylesheet" href="Quiz.css">
+<script src="https://kit.fontawesome.com/2054c0ab80.js" crossorigin="anonymous"></script>
+        <script src="Quiz.js"></script>
+    </head>
+    <body>
+ <input type="text"id="answr"class="none">
+ <input type="text"id="scr"value="0"class="none">
+ <input type="text"id="num"value="0"class="none">
+
+        <div class="main">
+<input type="text"id="score"class="score"disabled>
+    <ins><center>Random Question</center></ins>
+ <p id="que">Error!! Please on your data connection and Reload. </p>
+<label id="l1"><input type="radio"name="ans"id="rad1"class="none">
+<div id="cir1"class="fa">
+<div id="dot1"class="dot"></div></div>
+<span id="ans1">Option 1</span></label>
+
+ <p></p><label id="l2">
+ <input type="radio"name="ans"id="rad2"class="none">
+ <div id="cir2"class="fa">
+ <div id="dot2"class="dot"></div></div>
+ <span id="ans2">Option 2</span></label>
+ 
+ <p></p><label id="l3">
+ <input type="radio"name="ans"id="rad3"class="none">
+ <div id="cir3"class="fa">
+     <div id="dot3"class="dot"></div></div>
+ <span id="ans3">Option 3</span></label>
+ 
+ <p></p><label id="l4">
+ <input type="radio"name="ans"id="rad4"class="none">
+ <div id="cir4"class="fa">
+  <div id="dot4"class="dot"></div></div>
+ <span id="ans4">Option 4</span></label>
+ <p></p>
+ <center onclick="radi();"class="but"id="sub"> Submit </center>
+ <center onclick="rel();next()"class="but none"id="nex"> Next > </center> </center>
+        </div>
+    </body>
+</html>
